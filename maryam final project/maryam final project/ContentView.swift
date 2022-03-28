@@ -12,11 +12,12 @@ struct ContentView: View {
     var body: some View {
         VStack {
 //            SignInScreenView()
-            WelcomeScreenView()
+//            WelcomeScreenView()
+         overboard()
         }
 }
 }
-                
+           
    
 
 
@@ -83,7 +84,7 @@ struct SocalLoginButton: View {
         HStack{
             image
 //            Image("apple")
-            padding(.horizontal)
+                .padding(.horizontal)
             Spacer()
             text
 //            Text("sign in with apple")
