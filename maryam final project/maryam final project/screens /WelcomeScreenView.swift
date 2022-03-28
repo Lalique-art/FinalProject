@@ -11,7 +11,7 @@ struct WelcomeScreenView: View {
         NavigationView {
             ZStack{
             Color("bg color").edgesIgnoringSafeArea(.all)
-            WelcomeScreenView()
+//            WelcomeScreenView()
             VStack{
                 Spacer()
                 Image("welcome")
