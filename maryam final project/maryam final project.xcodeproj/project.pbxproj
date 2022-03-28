@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF1ADEF127F227DE006B9335 /* SignInScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1ADEF027F227DE006B9335 /* SignInScreenView.swift */; };
 		FFB59F4327F0C3A3002F8316 /* COLORS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB59F4227F0C3A3002F8316 /* COLORS.swift */; };
 		FFB59F4627F0D6E2002F8316 /* WelcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB59F4527F0D6E2002F8316 /* WelcomeScreenView.swift */; };
 		FFD1BF7F27EF1B6300815443 /* maryam_final_projectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD1BF7E27EF1B6300815443 /* maryam_final_projectApp.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF1ADEF027F227DE006B9335 /* SignInScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreenView.swift; sourceTree = "<group>"; };
 		FFB59F4227F0C3A3002F8316 /* COLORS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COLORS.swift; sourceTree = "<group>"; };
 		FFB59F4527F0D6E2002F8316 /* WelcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenView.swift; sourceTree = "<group>"; };
 		FFD1BF7B27EF1B6300815443 /* maryam final project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "maryam final project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +42,7 @@
 			isa = PBXGroup;
 			children = (
 				FFB59F4527F0D6E2002F8316 /* WelcomeScreenView.swift */,
+				FF1ADEF027F227DE006B9335 /* SignInScreenView.swift */,
 			);
 			path = "screens ";
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			files = (
 				FFD1BF8127EF1B6300815443 /* ContentView.swift in Sources */,
 				FFB59F4627F0D6E2002F8316 /* WelcomeScreenView.swift in Sources */,
+				FF1ADEF127F227DE006B9335 /* SignInScreenView.swift in Sources */,
 				FFD1BF7F27EF1B6300815443 /* maryam_final_projectApp.swift in Sources */,
 				FFB59F4327F0C3A3002F8316 /* COLORS.swift in Sources */,
 			);
