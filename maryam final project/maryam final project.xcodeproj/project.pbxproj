@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		FF1ADEF127F227DE006B9335 /* SignInScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1ADEF027F227DE006B9335 /* SignInScreenView.swift */; };
+		FF5822E727F4D00A00144EA6 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5822E627F4D00A00144EA6 /* Home.swift */; };
+		FF5822E927F4D04700144EA6 /* StylishIntroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5822E827F4D04700144EA6 /* StylishIntroApp.swift */; };
+		FF5822ED27F4D16E00144EA6 /* intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5822EC27F4D16E00144EA6 /* intro.swift */; };
 		FF76AE8B27F23BFA0033D45E /* maryam_final_projectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF76AE8A27F23BFA0033D45E /* maryam_final_projectApp.swift */; };
-		FF76AE8D27F23FF20033D45E /* overboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF76AE8C27F23FF20033D45E /* overboard.swift */; };
-		FF76AE9027F24AD50033D45E /* main app screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF76AE8F27F24AD50033D45E /* main app screen.swift */; };
-		FF76AE9427F24B400033D45E /* mainview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF76AE9327F24B400033D45E /* mainview.swift */; };
 		FFB59F4327F0C3A3002F8316 /* COLORS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB59F4227F0C3A3002F8316 /* COLORS.swift */; };
 		FFB59F4627F0D6E2002F8316 /* WelcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB59F4527F0D6E2002F8316 /* WelcomeScreenView.swift */; };
 		FFD1BF8127EF1B6300815443 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD1BF8027EF1B6300815443 /* ContentView.swift */; };
@@ -21,10 +21,10 @@
 
 /* Begin PBXFileReference section */
 		FF1ADEF027F227DE006B9335 /* SignInScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreenView.swift; sourceTree = "<group>"; };
+		FF5822E627F4D00A00144EA6 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		FF5822E827F4D04700144EA6 /* StylishIntroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylishIntroApp.swift; sourceTree = "<group>"; };
+		FF5822EC27F4D16E00144EA6 /* intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = intro.swift; sourceTree = "<group>"; };
 		FF76AE8A27F23BFA0033D45E /* maryam_final_projectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maryam_final_projectApp.swift; sourceTree = "<group>"; };
-		FF76AE8C27F23FF20033D45E /* overboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = overboard.swift; sourceTree = "<group>"; };
-		FF76AE8F27F24AD50033D45E /* main app screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "main app screen.swift"; sourceTree = "<group>"; };
-		FF76AE9327F24B400033D45E /* mainview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainview.swift; sourceTree = "<group>"; };
 		FFB59F4227F0C3A3002F8316 /* COLORS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COLORS.swift; sourceTree = "<group>"; };
 		FFB59F4527F0D6E2002F8316 /* WelcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenView.swift; sourceTree = "<group>"; };
 		FFD1BF7B27EF1B6300815443 /* maryam final project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "maryam final project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,9 +47,9 @@
 		FF76AE8E27F24A880033D45E /* onboarding */ = {
 			isa = PBXGroup;
 			children = (
-				FF76AE8C27F23FF20033D45E /* overboard.swift */,
-				FF76AE8F27F24AD50033D45E /* main app screen.swift */,
-				FF76AE9327F24B400033D45E /* mainview.swift */,
+				FF5822EC27F4D16E00144EA6 /* intro.swift */,
+				FF5822E627F4D00A00144EA6 /* Home.swift */,
+				FF5822E827F4D04700144EA6 /* StylishIntroApp.swift */,
 				FFD1BF8427EF1B6600815443 /* Preview Content */,
 			);
 			path = onboarding;
@@ -171,14 +171,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF76AE8D27F23FF20033D45E /* overboard.swift in Sources */,
-				FF76AE9427F24B400033D45E /* mainview.swift in Sources */,
 				FFD1BF8127EF1B6300815443 /* ContentView.swift in Sources */,
 				FF76AE8B27F23BFA0033D45E /* maryam_final_projectApp.swift in Sources */,
+				FF5822ED27F4D16E00144EA6 /* intro.swift in Sources */,
 				FFB59F4627F0D6E2002F8316 /* WelcomeScreenView.swift in Sources */,
-				FF76AE9027F24AD50033D45E /* main app screen.swift in Sources */,
 				FF1ADEF127F227DE006B9335 /* SignInScreenView.swift in Sources */,
+				FF5822E927F4D04700144EA6 /* StylishIntroApp.swift in Sources */,
 				FFB59F4327F0C3A3002F8316 /* COLORS.swift in Sources */,
+				FF5822E727F4D00A00144EA6 /* Home.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

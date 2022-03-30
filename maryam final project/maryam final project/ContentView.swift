@@ -8,13 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
-//    @State private var email:String = "" //
+@State var done = false
     var body: some View {
-        VStack {
-//            SignInScreenView()
-//            WelcomeScreenView()
-         overboard()
+        if done{
+            WelcomeScreenView()
+            
+            
+        }else{
+            Home(done: $done)
         }
+//        VStack {
+////            SignInScreenView()
+////            WelcomeScreenView()
+//         Home()
+//
+//        }
 }
 }
            
@@ -36,8 +44,10 @@ struct PrimaryButton : View {
             .fontWeight(.bold)
             .foregroundColor(.white)
             .frame(maxWidth: .infinity)
+            .padding()
             .background(Color("PrimaryColor"))
             .cornerRadius(50.0)
+           
     }
 }
 
