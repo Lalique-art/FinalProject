@@ -61,8 +61,8 @@ struct PrimaryButton : View {
 //            Image("welcome")
 //            Spacer()
 //            PrimaryButton(title:"Get Started")
-//            
-//            
+//
+//
 //            Text("Sign in")
 //                .font(.title3)
 //                .fontWeight(.bold)
@@ -73,14 +73,14 @@ struct PrimaryButton : View {
 //                .cornerRadius(50.0)
 //                .shadow(color: Color.black.opacity(0.08), radius: 60, x: 0.0, y: 16)
 //                .padding(.vertical)
-//            
+//
 //            HStack{
 //                Text("New around here?")
 //                Text("sign in")
 //                    .foregroundColor(Color("PrimaryColor"))
 //            }
 //        }
-//        
+//
 //        .padding()
 //    }
 //}
@@ -108,84 +108,9 @@ struct SocalLoginButton: View {
         .shadow(color: Color.black.opacity(0.08), radius: 60, x: 0.0, y: 16)
     }
 }
+    
 
-let items: [BottomBarItem] = [
-    BottomBarItem(icon: "house.fill", title: "Home", color: .purple),
-    BottomBarItem(icon: "heart", title: "Likes", color: .pink),
-    BottomBarItem(icon: "magnifyingglass", title: "Search", color: .orange),
-    BottomBarItem(icon: "person.fill", title: "Profile", color: .blue)
-]
 
-struct BasicView: View {
-    let item: BottomBarItem
-    var detailText: String {
-        "\(item.title) Detail"
-    }
-    
-    var destination: some View {
-        Text(detailText)
-            .navigationBarTitle(Text(detailText))
-    }
-    
-    var navigateButton: some View {
-        NavigationLink(destination: destination) {
-            ZStack {
-                Rectangle()
-                    .fill(item.color)
-                    .cornerRadius(8)
-                    .frame(height: 52)
-                    .padding(.horizontal)
-                
-                Text("Navigate")
-                    .font(.headline)
-                    .foregroundColor(.white)
-            }
-        }
-    }
-    
-    func openTwitter() {
-        guard let url = URL(string: "https://twitter.com/smartvipere75") else {
-            return
-        }
-        UIApplication.shared.open(url, options: [:], completionHandler: nil)
-    }
-    
-    var body: some View {
-        VStack {
-            Spacer()
-            Spacer()
-        }
-    }
-}
-
-struct ContentView : View {
-    @State private var selectedIndex: Int = 0
-    
-    init() {
-        UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor: UIColor.white]
-    }
-    
-    var selectedItem: BottomBarItem {
-        items[selectedIndex]
-    }
-    
-    var body: some View {
-        NavigationView {
-            VStack {
-                //change the navbar color
-                Rectangle()
-                    .foregroundColor(selectedItem.color)
-                    .edgesIgnoringSafeArea(.top)
-                    .frame(height: 0)
-                    .navigationBarHidden(false)
-                
-                BasicView(item: selectedItem)
-                    .navigationBarTitle(Text(selectedItem.title))
-                BottomBar(selectedIndex: $selectedIndex, items: items)
-            }
-        }
-    }
-}
 
 
 

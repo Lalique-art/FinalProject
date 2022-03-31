@@ -1,10 +1,3 @@
-//
-//  WelcomeScreenView.swift
-//  maryam final project
-//
-//  Created by lolo lolo on 27/03/2022.
-//
-
 import SwiftUI
 struct WelcomeScreenView: View {
     var body: some View {
@@ -53,3 +46,4 @@ struct WelcomeScreenView_Previews: PreviewProvider {
         WelcomeScreenView()
     }
 }
+

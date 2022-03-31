@@ -55,3 +55,4 @@ struct SignInScreenView_Previews: PreviewProvider {
         SignInScreenView()
     }
 }
+

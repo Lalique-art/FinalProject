@@ -7,44 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FF1ADEF127F227DE006B9335 /* SignInScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1ADEF027F227DE006B9335 /* SignInScreenView.swift */; };
-		FF51D19727F5B87700802531 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF51D19627F5B87700802531 /* AppDelegate.swift */; };
-		FF51D19927F5B89400802531 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF51D19827F5B89400802531 /* SceneDelegate.swift */; };
-		FF51D19B27F5B8B300802531 /* BottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF51D19A27F5B8B300802531 /* BottomBar.swift */; };
-		FF51D19D27F5B8CD00802531 /* BottomBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF51D19C27F5B8CD00802531 /* BottomBarItem.swift */; };
-		FF51D19F27F5B8F500802531 /* BottomBarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF51D19E27F5B8F500802531 /* BottomBarItemView.swift */; };
-		FF5822E727F4D00A00144EA6 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5822E627F4D00A00144EA6 /* Home.swift */; };
-		FF5822E927F4D04700144EA6 /* StylishIntroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5822E827F4D04700144EA6 /* StylishIntroApp.swift */; };
-		FF5822ED27F4D16E00144EA6 /* intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5822EC27F4D16E00144EA6 /* intro.swift */; };
-		FF76AE8B27F23BFA0033D45E /* maryam_final_projectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF76AE8A27F23BFA0033D45E /* maryam_final_projectApp.swift */; };
-		FFB59F4327F0C3A3002F8316 /* COLORS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB59F4227F0C3A3002F8316 /* COLORS.swift */; };
-		FFB59F4627F0D6E2002F8316 /* WelcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB59F4527F0D6E2002F8316 /* WelcomeScreenView.swift */; };
-		FFD1BF8127EF1B6300815443 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD1BF8027EF1B6300815443 /* ContentView.swift */; };
-		FFD1BF8327EF1B6600815443 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFD1BF8227EF1B6600815443 /* Assets.xcassets */; };
-		FFD1BF8627EF1B6600815443 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFD1BF8527EF1B6600815443 /* Preview Assets.xcassets */; };
+		FFE1E50227F63F17008F4B31 /* WelcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE1E50127F63F17008F4B31 /* WelcomeScreenView.swift */; };
+		FFE1E50427F63F5D008F4B31 /* SignInScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE1E50327F63F5D008F4B31 /* SignInScreenView.swift */; };
+		FFE1E50627F63F93008F4B31 /* COLORS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE1E50527F63F93008F4B31 /* COLORS.swift */; };
+		FFE1E50927F63FD6008F4B31 /* intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE1E50827F63FD6008F4B31 /* intro.swift */; };
+		FFE1E50B27F63FF8008F4B31 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE1E50A27F63FF8008F4B31 /* Home.swift */; };
+		FFFDDABB27F637270048C033 /* maryam_final_projectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFDDABA27F637270048C033 /* maryam_final_projectApp.swift */; };
+		FFFDDABD27F637270048C033 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFDDABC27F637270048C033 /* ContentView.swift */; };
+		FFFDDABF27F6372A0048C033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFFDDABE27F6372A0048C033 /* Assets.xcassets */; };
+		FFFDDAC227F6372A0048C033 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFFDDAC127F6372A0048C033 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FF1ADEF027F227DE006B9335 /* SignInScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreenView.swift; sourceTree = "<group>"; };
-		FF51D19627F5B87700802531 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF51D19827F5B89400802531 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FF51D19A27F5B8B300802531 /* BottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBar.swift; sourceTree = "<group>"; };
-		FF51D19C27F5B8CD00802531 /* BottomBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBarItem.swift; sourceTree = "<group>"; };
-		FF51D19E27F5B8F500802531 /* BottomBarItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBarItemView.swift; sourceTree = "<group>"; };
-		FF5822E627F4D00A00144EA6 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
-		FF5822E827F4D04700144EA6 /* StylishIntroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylishIntroApp.swift; sourceTree = "<group>"; };
-		FF5822EC27F4D16E00144EA6 /* intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = intro.swift; sourceTree = "<group>"; };
-		FF76AE8A27F23BFA0033D45E /* maryam_final_projectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maryam_final_projectApp.swift; sourceTree = "<group>"; };
-		FFB59F4227F0C3A3002F8316 /* COLORS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COLORS.swift; sourceTree = "<group>"; };
-		FFB59F4527F0D6E2002F8316 /* WelcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenView.swift; sourceTree = "<group>"; };
-		FFD1BF7B27EF1B6300815443 /* maryam final project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "maryam final project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFD1BF8027EF1B6300815443 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		FFD1BF8227EF1B6600815443 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FFD1BF8527EF1B6600815443 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FFE1E50127F63F17008F4B31 /* WelcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenView.swift; sourceTree = "<group>"; };
+		FFE1E50327F63F5D008F4B31 /* SignInScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreenView.swift; sourceTree = "<group>"; };
+		FFE1E50527F63F93008F4B31 /* COLORS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COLORS.swift; sourceTree = "<group>"; };
+		FFE1E50827F63FD6008F4B31 /* intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = intro.swift; sourceTree = "<group>"; };
+		FFE1E50A27F63FF8008F4B31 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		FFFDDAB727F637270048C033 /* maryam final project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "maryam final project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFFDDABA27F637270048C033 /* maryam_final_projectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maryam_final_projectApp.swift; sourceTree = "<group>"; };
+		FFFDDABC27F637270048C033 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FFFDDABE27F6372A0048C033 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFFDDAC127F6372A0048C033 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FFD1BF7827EF1B6300815443 /* Frameworks */ = {
+		FFFDDAB427F637270048C033 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -54,72 +42,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FF51D19327F5B82500802531 /* tap bar */ = {
+		FFE1E50727F63FB1008F4B31 /* onboarding */ = {
 			isa = PBXGroup;
 			children = (
-				FF51D19627F5B87700802531 /* AppDelegate.swift */,
-				FF51D19827F5B89400802531 /* SceneDelegate.swift */,
-				FF51D19A27F5B8B300802531 /* BottomBar.swift */,
-				FF51D19C27F5B8CD00802531 /* BottomBarItem.swift */,
-				FF51D19E27F5B8F500802531 /* BottomBarItemView.swift */,
-				FFD1BF8427EF1B6600815443 /* Preview Content */,
-			);
-			path = "tap bar";
-			sourceTree = "<group>";
-		};
-		FF76AE8E27F24A880033D45E /* onboarding */ = {
-			isa = PBXGroup;
-			children = (
-				FF5822EC27F4D16E00144EA6 /* intro.swift */,
-				FF5822E627F4D00A00144EA6 /* Home.swift */,
-				FF5822E827F4D04700144EA6 /* StylishIntroApp.swift */,
-				FF51D19327F5B82500802531 /* tap bar */,
+				FFE1E50827F63FD6008F4B31 /* intro.swift */,
+				FFE1E50A27F63FF8008F4B31 /* Home.swift */,
+				FFFDDAC027F6372A0048C033 /* Preview Content */,
 			);
 			path = onboarding;
 			sourceTree = "<group>";
 		};
-		FFB59F4427F0D68E002F8316 /* screens  */ = {
+		FFFDDAAE27F637270048C033 = {
 			isa = PBXGroup;
 			children = (
-				FFB59F4527F0D6E2002F8316 /* WelcomeScreenView.swift */,
-				FF1ADEF027F227DE006B9335 /* SignInScreenView.swift */,
-			);
-			path = "screens ";
-			sourceTree = "<group>";
-		};
-		FFD1BF7227EF1B6300815443 = {
-			isa = PBXGroup;
-			children = (
-				FFD1BF7D27EF1B6300815443 /* maryam final project */,
-				FFD1BF7C27EF1B6300815443 /* Products */,
+				FFFDDAB927F637270048C033 /* maryam final project */,
+				FFFDDAB827F637270048C033 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FFD1BF7C27EF1B6300815443 /* Products */ = {
+		FFFDDAB827F637270048C033 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FFD1BF7B27EF1B6300815443 /* maryam final project.app */,
+				FFFDDAB727F637270048C033 /* maryam final project.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FFD1BF7D27EF1B6300815443 /* maryam final project */ = {
+		FFFDDAB927F637270048C033 /* maryam final project */ = {
 			isa = PBXGroup;
 			children = (
-				FFB59F4427F0D68E002F8316 /* screens  */,
-				FFD1BF8027EF1B6300815443 /* ContentView.swift */,
-				FF76AE8A27F23BFA0033D45E /* maryam_final_projectApp.swift */,
-				FFB59F4227F0C3A3002F8316 /* COLORS.swift */,
-				FFD1BF8227EF1B6600815443 /* Assets.xcassets */,
-				FF76AE8E27F24A880033D45E /* onboarding */,
+				FFE1E50127F63F17008F4B31 /* WelcomeScreenView.swift */,
+				FFE1E50327F63F5D008F4B31 /* SignInScreenView.swift */,
+				FFFDDABC27F637270048C033 /* ContentView.swift */,
+				FFFDDABA27F637270048C033 /* maryam_final_projectApp.swift */,
+				FFE1E50527F63F93008F4B31 /* COLORS.swift */,
+				FFFDDABE27F6372A0048C033 /* Assets.xcassets */,
+				FFE1E50727F63FB1008F4B31 /* onboarding */,
 			);
 			path = "maryam final project";
 			sourceTree = "<group>";
 		};
-		FFD1BF8427EF1B6600815443 /* Preview Content */ = {
+		FFFDDAC027F6372A0048C033 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				FFD1BF8527EF1B6600815443 /* Preview Assets.xcassets */,
+				FFFDDAC127F6372A0048C033 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -127,13 +93,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FFD1BF7A27EF1B6300815443 /* maryam final project */ = {
+		FFFDDAB627F637270048C033 /* maryam final project */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FFD1BF8927EF1B6600815443 /* Build configuration list for PBXNativeTarget "maryam final project" */;
+			buildConfigurationList = FFFDDAC527F6372A0048C033 /* Build configuration list for PBXNativeTarget "maryam final project" */;
 			buildPhases = (
-				FFD1BF7727EF1B6300815443 /* Sources */,
-				FFD1BF7827EF1B6300815443 /* Frameworks */,
-				FFD1BF7927EF1B6300815443 /* Resources */,
+				FFFDDAB327F637270048C033 /* Sources */,
+				FFFDDAB427F637270048C033 /* Frameworks */,
+				FFFDDAB527F637270048C033 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -141,25 +107,25 @@
 			);
 			name = "maryam final project";
 			productName = "maryam final project";
-			productReference = FFD1BF7B27EF1B6300815443 /* maryam final project.app */;
+			productReference = FFFDDAB727F637270048C033 /* maryam final project.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FFD1BF7327EF1B6300815443 /* Project object */ = {
+		FFFDDAAF27F637270048C033 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					FFD1BF7A27EF1B6300815443 = {
+					FFFDDAB627F637270048C033 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = FFD1BF7627EF1B6300815443 /* Build configuration list for PBXProject "maryam final project" */;
+			buildConfigurationList = FFFDDAB227F637270048C033 /* Build configuration list for PBXProject "maryam final project" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -167,53 +133,47 @@
 				en,
 				Base,
 			);
-			mainGroup = FFD1BF7227EF1B6300815443;
-			productRefGroup = FFD1BF7C27EF1B6300815443 /* Products */;
+			mainGroup = FFFDDAAE27F637270048C033;
+			productRefGroup = FFFDDAB827F637270048C033 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FFD1BF7A27EF1B6300815443 /* maryam final project */,
+				FFFDDAB627F637270048C033 /* maryam final project */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FFD1BF7927EF1B6300815443 /* Resources */ = {
+		FFFDDAB527F637270048C033 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFD1BF8627EF1B6600815443 /* Preview Assets.xcassets in Resources */,
-				FFD1BF8327EF1B6600815443 /* Assets.xcassets in Resources */,
+				FFFDDAC227F6372A0048C033 /* Preview Assets.xcassets in Resources */,
+				FFFDDABF27F6372A0048C033 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FFD1BF7727EF1B6300815443 /* Sources */ = {
+		FFFDDAB327F637270048C033 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFD1BF8127EF1B6300815443 /* ContentView.swift in Sources */,
-				FF76AE8B27F23BFA0033D45E /* maryam_final_projectApp.swift in Sources */,
-				FF5822ED27F4D16E00144EA6 /* intro.swift in Sources */,
-				FF51D19727F5B87700802531 /* AppDelegate.swift in Sources */,
-				FFB59F4627F0D6E2002F8316 /* WelcomeScreenView.swift in Sources */,
-				FF51D19927F5B89400802531 /* SceneDelegate.swift in Sources */,
-				FF1ADEF127F227DE006B9335 /* SignInScreenView.swift in Sources */,
-				FF51D19D27F5B8CD00802531 /* BottomBarItem.swift in Sources */,
-				FF5822E927F4D04700144EA6 /* StylishIntroApp.swift in Sources */,
-				FF51D19B27F5B8B300802531 /* BottomBar.swift in Sources */,
-				FF51D19F27F5B8F500802531 /* BottomBarItemView.swift in Sources */,
-				FFB59F4327F0C3A3002F8316 /* COLORS.swift in Sources */,
-				FF5822E727F4D00A00144EA6 /* Home.swift in Sources */,
+				FFE1E50627F63F93008F4B31 /* COLORS.swift in Sources */,
+				FFE1E50427F63F5D008F4B31 /* SignInScreenView.swift in Sources */,
+				FFE1E50927F63FD6008F4B31 /* intro.swift in Sources */,
+				FFE1E50227F63F17008F4B31 /* WelcomeScreenView.swift in Sources */,
+				FFFDDABD27F637270048C033 /* ContentView.swift in Sources */,
+				FFFDDABB27F637270048C033 /* maryam_final_projectApp.swift in Sources */,
+				FFE1E50B27F63FF8008F4B31 /* Home.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		FFD1BF8727EF1B6600815443 /* Debug */ = {
+		FFFDDAC327F6372A0048C033 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -274,7 +234,7 @@
 			};
 			name = Debug;
 		};
-		FFD1BF8827EF1B6600815443 /* Release */ = {
+		FFFDDAC427F6372A0048C033 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -329,7 +289,7 @@
 			};
 			name = Release;
 		};
-		FFD1BF8A27EF1B6600815443 /* Debug */ = {
+		FFFDDAC627F6372A0048C033 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -357,7 +317,7 @@
 			};
 			name = Debug;
 		};
-		FFD1BF8B27EF1B6600815443 /* Release */ = {
+		FFFDDAC727F6372A0048C033 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -388,25 +348,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FFD1BF7627EF1B6300815443 /* Build configuration list for PBXProject "maryam final project" */ = {
+		FFFDDAB227F637270048C033 /* Build configuration list for PBXProject "maryam final project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FFD1BF8727EF1B6600815443 /* Debug */,
-				FFD1BF8827EF1B6600815443 /* Release */,
+				FFFDDAC327F6372A0048C033 /* Debug */,
+				FFFDDAC427F6372A0048C033 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FFD1BF8927EF1B6600815443 /* Build configuration list for PBXNativeTarget "maryam final project" */ = {
+		FFFDDAC527F6372A0048C033 /* Build configuration list for PBXNativeTarget "maryam final project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FFD1BF8A27EF1B6600815443 /* Debug */,
-				FFD1BF8B27EF1B6600815443 /* Release */,
+				FFFDDAC627F6372A0048C033 /* Debug */,
+				FFFDDAC727F6372A0048C033 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FFD1BF7327EF1B6300815443 /* Project object */;
+	rootObject = FFFDDAAF27F637270048C033 /* Project object */;
 }

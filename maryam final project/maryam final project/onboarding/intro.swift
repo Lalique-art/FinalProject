@@ -2,9 +2,8 @@
 //  intro.swift
 //  maryam final project
 //
-//  Created by lolo lolo on 30/03/2022.
+//  Created by lolo lolo on 31/03/2022.
 //
-
 import SwiftUI
 
 struct Intro: Identifiable{
@@ -16,4 +15,5 @@ struct Intro: Identifiable{
     var color: Color
     var offset: CGSize = .zero
 }
+
 
