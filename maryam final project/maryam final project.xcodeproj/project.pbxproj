@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF2F1B7B27F65847003716C6 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2F1B7A27F65847003716C6 /* Card.swift */; };
+		FF2F1B7D27F65862003716C6 /* CardSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2F1B7C27F65862003716C6 /* CardSection.swift */; };
+		FF2F1B7F27F6587A003716C6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2F1B7E27F6587A003716C6 /* CardView.swift */; };
+		FF2F1B8227F658D0003716C6 /* customer file.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2F1B8127F658D0003716C6 /* customer file.swift */; };
+		FF2F1B8427F658E3003716C6 /* checkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2F1B8327F658E3003716C6 /* checkout.swift */; };
+		FF2F1B8627F658F6003716C6 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2F1B8527F658F6003716C6 /* test.swift */; };
+		FF2F1B8827F65918003716C6 /* TapButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2F1B8727F65918003716C6 /* TapButtonView.swift */; };
+		FF2F1B8A27F6593A003716C6 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2F1B8927F6593A003716C6 /* CustomTabView.swift */; };
+		FF2F1B8C27F65966003716C6 /* SeaSellApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2F1B8B27F65966003716C6 /* SeaSellApp.swift */; };
 		FFE1E50227F63F17008F4B31 /* WelcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE1E50127F63F17008F4B31 /* WelcomeScreenView.swift */; };
 		FFE1E50427F63F5D008F4B31 /* SignInScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE1E50327F63F5D008F4B31 /* SignInScreenView.swift */; };
 		FFE1E50627F63F93008F4B31 /* COLORS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE1E50527F63F93008F4B31 /* COLORS.swift */; };
@@ -19,6 +28,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF2F1B7A27F65847003716C6 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		FF2F1B7C27F65862003716C6 /* CardSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSection.swift; sourceTree = "<group>"; };
+		FF2F1B7E27F6587A003716C6 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		FF2F1B8127F658D0003716C6 /* customer file.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "customer file.swift"; sourceTree = "<group>"; };
+		FF2F1B8327F658E3003716C6 /* checkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkout.swift; sourceTree = "<group>"; };
+		FF2F1B8527F658F6003716C6 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		FF2F1B8727F65918003716C6 /* TapButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapButtonView.swift; sourceTree = "<group>"; };
+		FF2F1B8927F6593A003716C6 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		FF2F1B8B27F65966003716C6 /* SeaSellApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaSellApp.swift; sourceTree = "<group>"; };
 		FFE1E50127F63F17008F4B31 /* WelcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenView.swift; sourceTree = "<group>"; };
 		FFE1E50327F63F5D008F4B31 /* SignInScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreenView.swift; sourceTree = "<group>"; };
 		FFE1E50527F63F93008F4B31 /* COLORS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COLORS.swift; sourceTree = "<group>"; };
@@ -42,11 +60,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF2F1B7927F657F7003716C6 /* cards */ = {
+			isa = PBXGroup;
+			children = (
+				FF2F1B7A27F65847003716C6 /* Card.swift */,
+				FF2F1B7C27F65862003716C6 /* CardSection.swift */,
+				FF2F1B7E27F6587A003716C6 /* CardView.swift */,
+				FF2F1B8027F65890003716C6 /* View */,
+			);
+			path = cards;
+			sourceTree = "<group>";
+		};
+		FF2F1B8027F65890003716C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF2F1B8127F658D0003716C6 /* customer file.swift */,
+				FF2F1B8327F658E3003716C6 /* checkout.swift */,
+				FF2F1B8527F658F6003716C6 /* test.swift */,
+				FF2F1B8727F65918003716C6 /* TapButtonView.swift */,
+				FF2F1B8927F6593A003716C6 /* CustomTabView.swift */,
+				FF2F1B8B27F65966003716C6 /* SeaSellApp.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		FFE1E50727F63FB1008F4B31 /* onboarding */ = {
 			isa = PBXGroup;
 			children = (
-				FFE1E50827F63FD6008F4B31 /* intro.swift */,
 				FFE1E50A27F63FF8008F4B31 /* Home.swift */,
+				FFE1E50827F63FD6008F4B31 /* intro.swift */,
 				FFFDDAC027F6372A0048C033 /* Preview Content */,
 			);
 			path = onboarding;
@@ -86,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				FFFDDAC127F6372A0048C033 /* Preview Assets.xcassets */,
+				FF2F1B7927F657F7003716C6 /* cards */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -163,10 +206,19 @@
 				FFE1E50627F63F93008F4B31 /* COLORS.swift in Sources */,
 				FFE1E50427F63F5D008F4B31 /* SignInScreenView.swift in Sources */,
 				FFE1E50927F63FD6008F4B31 /* intro.swift in Sources */,
+				FF2F1B8627F658F6003716C6 /* test.swift in Sources */,
 				FFE1E50227F63F17008F4B31 /* WelcomeScreenView.swift in Sources */,
+				FF2F1B8C27F65966003716C6 /* SeaSellApp.swift in Sources */,
+				FF2F1B7F27F6587A003716C6 /* CardView.swift in Sources */,
 				FFFDDABD27F637270048C033 /* ContentView.swift in Sources */,
 				FFFDDABB27F637270048C033 /* maryam_final_projectApp.swift in Sources */,
+				FF2F1B8827F65918003716C6 /* TapButtonView.swift in Sources */,
+				FF2F1B8227F658D0003716C6 /* customer file.swift in Sources */,
+				FF2F1B7D27F65862003716C6 /* CardSection.swift in Sources */,
 				FFE1E50B27F63FF8008F4B31 /* Home.swift in Sources */,
+				FF2F1B8A27F6593A003716C6 /* CustomTabView.swift in Sources */,
+				FF2F1B7B27F65847003716C6 /* Card.swift in Sources */,
+				FF2F1B8427F658E3003716C6 /* checkout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
