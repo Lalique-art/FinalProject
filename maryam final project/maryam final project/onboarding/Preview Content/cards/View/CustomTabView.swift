@@ -16,11 +16,11 @@ struct CustomTabView: View {
                 ContentView()
                     .tag("house")
                 CartView()
-                    .tag("heart.fill")
+                    .tag("cart.fill")
              CardsSection()
                     .tag("shuffle")
                 checkout()
-                    .tag("cart.fill")
+                    .tag("heart.fill")
                 customer_file()
                     .tag("person.crop.circle")
             }

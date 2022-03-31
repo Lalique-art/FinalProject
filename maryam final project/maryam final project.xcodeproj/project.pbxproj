@@ -16,6 +16,10 @@
 		FF2F1B8A27F6593A003716C6 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2F1B8927F6593A003716C6 /* CustomTabView.swift */; };
 		FF2F1B8C27F65966003716C6 /* SeaSellApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2F1B8B27F65966003716C6 /* SeaSellApp.swift */; };
 		FF2F1B8E27F65FE0003716C6 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2F1B8D27F65FE0003716C6 /* CartView.swift */; };
+		FF2F1B9127F66297003716C6 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2F1B9027F66296003716C6 /* Item.swift */; };
+		FF2F1B9327F662B5003716C6 /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2F1B9227F662B5003716C6 /* CartViewModel.swift */; };
+		FF2F1B9527F662FF003716C6 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2F1B9427F662FF003716C6 /* CartView.swift */; };
+		FF2F1B9727F6632C003716C6 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2F1B9627F6632C003716C6 /* ItemView.swift */; };
 		FFE1E50227F63F17008F4B31 /* WelcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE1E50127F63F17008F4B31 /* WelcomeScreenView.swift */; };
 		FFE1E50427F63F5D008F4B31 /* SignInScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE1E50327F63F5D008F4B31 /* SignInScreenView.swift */; };
 		FFE1E50627F63F93008F4B31 /* COLORS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE1E50527F63F93008F4B31 /* COLORS.swift */; };
@@ -37,6 +41,10 @@
 		FF2F1B8927F6593A003716C6 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
 		FF2F1B8B27F65966003716C6 /* SeaSellApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaSellApp.swift; sourceTree = "<group>"; };
 		FF2F1B8D27F65FE0003716C6 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		FF2F1B9027F66296003716C6 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		FF2F1B9227F662B5003716C6 /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
+		FF2F1B9427F662FF003716C6 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		FF2F1B9627F6632C003716C6 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
 		FFE1E50127F63F17008F4B31 /* WelcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenView.swift; sourceTree = "<group>"; };
 		FFE1E50327F63F5D008F4B31 /* SignInScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreenView.swift; sourceTree = "<group>"; };
 		FFE1E50527F63F93008F4B31 /* COLORS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COLORS.swift; sourceTree = "<group>"; };
@@ -84,12 +92,24 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		FF2F1B8F27F66259003716C6 /* cart */ = {
+			isa = PBXGroup;
+			children = (
+				FF2F1B9027F66296003716C6 /* Item.swift */,
+				FF2F1B9227F662B5003716C6 /* CartViewModel.swift */,
+				FF2F1B9427F662FF003716C6 /* CartView.swift */,
+				FF2F1B9627F6632C003716C6 /* ItemView.swift */,
+			);
+			path = cart;
+			sourceTree = "<group>";
+		};
 		FFE1E50727F63FB1008F4B31 /* onboarding */ = {
 			isa = PBXGroup;
 			children = (
 				FFE1E50A27F63FF8008F4B31 /* Home.swift */,
 				FFE1E50827F63FD6008F4B31 /* intro.swift */,
 				FFFDDAC027F6372A0048C033 /* Preview Content */,
+				FF2F1B8F27F66259003716C6 /* cart */,
 			);
 			path = onboarding;
 			sourceTree = "<group>";
@@ -205,9 +225,12 @@
 			files = (
 				FFE1E50627F63F93008F4B31 /* COLORS.swift in Sources */,
 				FFE1E50427F63F5D008F4B31 /* SignInScreenView.swift in Sources */,
+				FF2F1B9127F66297003716C6 /* Item.swift in Sources */,
+				FF2F1B9727F6632C003716C6 /* ItemView.swift in Sources */,
 				FFE1E50927F63FD6008F4B31 /* intro.swift in Sources */,
 				FFE1E50227F63F17008F4B31 /* WelcomeScreenView.swift in Sources */,
 				FF2F1B8C27F65966003716C6 /* SeaSellApp.swift in Sources */,
+				FF2F1B9327F662B5003716C6 /* CartViewModel.swift in Sources */,
 				FF2F1B7F27F6587A003716C6 /* CardView.swift in Sources */,
 				FFFDDABD27F637270048C033 /* ContentView.swift in Sources */,
 				FFFDDABB27F637270048C033 /* maryam_final_projectApp.swift in Sources */,
@@ -218,6 +241,7 @@
 				FF2F1B8A27F6593A003716C6 /* CustomTabView.swift in Sources */,
 				FF2F1B7B27F65847003716C6 /* Card.swift in Sources */,
 				FF2F1B8E27F65FE0003716C6 /* CartView.swift in Sources */,
+				FF2F1B9527F662FF003716C6 /* CartView.swift in Sources */,
 				FF2F1B8427F658E3003716C6 /* checkout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
