@@ -10,11 +10,11 @@ import SwiftUI
 struct Home: View {
     // MARK: - INTROS
     @State var intros: [Intro] = [
-        Intro(title: "Stay Relaxed", subTitle: "Take Deep Breaths", description: "Staying calm at work can help you build relationships with your coworkers and think logically.", img: "scrn1", color: Color("Intro1")),
+        Intro(title: "my tailor", subTitle: "Tailoring has never been easier", description: "design you outfit,buy your fabric,conttact your tailor in the comfort of your home", img: "scrn1", color: Color("baby blue")),
         
-        Intro(title: "Stay Creative", subTitle: "Keep Ideas Fresh", description: "Creativity comes slowly; it's a process and you have to nurture it. Creativity needs to be nurtured.", img: "scrn2", color: Color("Intro2")),
+        Intro(title: "Easy use", subTitle: "easy contact", description: "Contacting the tailor and sharing your thoughts and ideas in the process", img: "scrn2", color: Color("bg color")),
         
-        Intro(title: "Stay Organized", subTitle: "Create Task List", description: "Half the battle of being a professional artist is simply staying organized.", img: "scrn3", color: Color("Intro3")),
+        Intro(title: "Easy payment methods", subTitle: "your money is safe ", description: "Easy money transfers from the customer to the tailor", img: "scrn3", color: Color("PrimaryColor")),
     ]
     
     // MARK: - GESTURE

@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		FF1ADEF127F227DE006B9335 /* SignInScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1ADEF027F227DE006B9335 /* SignInScreenView.swift */; };
+		FF51D19727F5B87700802531 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF51D19627F5B87700802531 /* AppDelegate.swift */; };
+		FF51D19927F5B89400802531 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF51D19827F5B89400802531 /* SceneDelegate.swift */; };
+		FF51D19B27F5B8B300802531 /* BottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF51D19A27F5B8B300802531 /* BottomBar.swift */; };
+		FF51D19D27F5B8CD00802531 /* BottomBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF51D19C27F5B8CD00802531 /* BottomBarItem.swift */; };
+		FF51D19F27F5B8F500802531 /* BottomBarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF51D19E27F5B8F500802531 /* BottomBarItemView.swift */; };
 		FF5822E727F4D00A00144EA6 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5822E627F4D00A00144EA6 /* Home.swift */; };
 		FF5822E927F4D04700144EA6 /* StylishIntroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5822E827F4D04700144EA6 /* StylishIntroApp.swift */; };
 		FF5822ED27F4D16E00144EA6 /* intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5822EC27F4D16E00144EA6 /* intro.swift */; };
@@ -21,6 +26,11 @@
 
 /* Begin PBXFileReference section */
 		FF1ADEF027F227DE006B9335 /* SignInScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreenView.swift; sourceTree = "<group>"; };
+		FF51D19627F5B87700802531 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF51D19827F5B89400802531 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FF51D19A27F5B8B300802531 /* BottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBar.swift; sourceTree = "<group>"; };
+		FF51D19C27F5B8CD00802531 /* BottomBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBarItem.swift; sourceTree = "<group>"; };
+		FF51D19E27F5B8F500802531 /* BottomBarItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBarItemView.swift; sourceTree = "<group>"; };
 		FF5822E627F4D00A00144EA6 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		FF5822E827F4D04700144EA6 /* StylishIntroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylishIntroApp.swift; sourceTree = "<group>"; };
 		FF5822EC27F4D16E00144EA6 /* intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = intro.swift; sourceTree = "<group>"; };
@@ -44,13 +54,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF51D19327F5B82500802531 /* tap bar */ = {
+			isa = PBXGroup;
+			children = (
+				FF51D19627F5B87700802531 /* AppDelegate.swift */,
+				FF51D19827F5B89400802531 /* SceneDelegate.swift */,
+				FF51D19A27F5B8B300802531 /* BottomBar.swift */,
+				FF51D19C27F5B8CD00802531 /* BottomBarItem.swift */,
+				FF51D19E27F5B8F500802531 /* BottomBarItemView.swift */,
+				FFD1BF8427EF1B6600815443 /* Preview Content */,
+			);
+			path = "tap bar";
+			sourceTree = "<group>";
+		};
 		FF76AE8E27F24A880033D45E /* onboarding */ = {
 			isa = PBXGroup;
 			children = (
 				FF5822EC27F4D16E00144EA6 /* intro.swift */,
 				FF5822E627F4D00A00144EA6 /* Home.swift */,
 				FF5822E827F4D04700144EA6 /* StylishIntroApp.swift */,
-				FFD1BF8427EF1B6600815443 /* Preview Content */,
+				FF51D19327F5B82500802531 /* tap bar */,
 			);
 			path = onboarding;
 			sourceTree = "<group>";
@@ -86,8 +109,8 @@
 				FFB59F4427F0D68E002F8316 /* screens  */,
 				FFD1BF8027EF1B6300815443 /* ContentView.swift */,
 				FF76AE8A27F23BFA0033D45E /* maryam_final_projectApp.swift */,
-				FFD1BF8227EF1B6600815443 /* Assets.xcassets */,
 				FFB59F4227F0C3A3002F8316 /* COLORS.swift */,
+				FFD1BF8227EF1B6600815443 /* Assets.xcassets */,
 				FF76AE8E27F24A880033D45E /* onboarding */,
 			);
 			path = "maryam final project";
@@ -174,9 +197,14 @@
 				FFD1BF8127EF1B6300815443 /* ContentView.swift in Sources */,
 				FF76AE8B27F23BFA0033D45E /* maryam_final_projectApp.swift in Sources */,
 				FF5822ED27F4D16E00144EA6 /* intro.swift in Sources */,
+				FF51D19727F5B87700802531 /* AppDelegate.swift in Sources */,
 				FFB59F4627F0D6E2002F8316 /* WelcomeScreenView.swift in Sources */,
+				FF51D19927F5B89400802531 /* SceneDelegate.swift in Sources */,
 				FF1ADEF127F227DE006B9335 /* SignInScreenView.swift in Sources */,
+				FF51D19D27F5B8CD00802531 /* BottomBarItem.swift in Sources */,
 				FF5822E927F4D04700144EA6 /* StylishIntroApp.swift in Sources */,
+				FF51D19B27F5B8B300802531 /* BottomBar.swift in Sources */,
+				FF51D19F27F5B8F500802531 /* BottomBarItemView.swift in Sources */,
 				FFB59F4327F0C3A3002F8316 /* COLORS.swift in Sources */,
 				FF5822E727F4D00A00144EA6 /* Home.swift in Sources */,
 			);

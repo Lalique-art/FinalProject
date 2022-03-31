@@ -109,44 +109,83 @@ struct SocalLoginButton: View {
     }
 }
 
-//struct SignInScreenView: View {
-//    @State private var email:String = "" //
-//    var body: some View {
-//        ZStack{
-//            Color("bg color").edgesIgnoringSafeArea(.all)
-//            
-//            VStack {
-//                Spacer()
-//                VStack{
-//                    Text("Sign In")
-//                        .font(.largeTitle)
-//                        .fontWeight(.bold)
-//                        .padding(.bottom, 30)
-//                    SocalLoginButton(image:Image("apple"), text: Text ("Sign in with Apple"))
-//                    SocalLoginButton(image:Image("google"), text: Text ("Sign in with google")).foregroundColor(Color("PrimaryColor"))
-//                        .padding(.vertical)
-//                    Text("want us to contact you?")
-//                        .foregroundColor(Color.black.opacity(0.4))
-//                    
-//                    TextField("email address", text:$email)
-//                        .font(.title3)
-//                        .padding()
-//                        .frame(maxWidth: .infinity)
-//                        .background(Color.white)
-//                        .cornerRadius(50.0)
-//                        .shadow(color: Color.black.opacity(0.08), radius: 60, x: 0.0, y: 16)
-//                        .padding(.vertical)
-//                    PrimaryButton(title:"email me a sign up link")
-//                }
-//                Spacer()
-//                Divider()
-//                Spacer()
-//                Text("this is a safe place")
-//                Text("Read our terms & Conditions")
-//                    .foregroundColor(Color("PrimaryColor"))
-//                Spacer()
-//                
-//            } .padding()
-//        }
-//    }
-//}
+let items: [BottomBarItem] = [
+    BottomBarItem(icon: "house.fill", title: "Home", color: .purple),
+    BottomBarItem(icon: "heart", title: "Likes", color: .pink),
+    BottomBarItem(icon: "magnifyingglass", title: "Search", color: .orange),
+    BottomBarItem(icon: "person.fill", title: "Profile", color: .blue)
+]
+
+struct BasicView: View {
+    let item: BottomBarItem
+    var detailText: String {
+        "\(item.title) Detail"
+    }
+    
+    var destination: some View {
+        Text(detailText)
+            .navigationBarTitle(Text(detailText))
+    }
+    
+    var navigateButton: some View {
+        NavigationLink(destination: destination) {
+            ZStack {
+                Rectangle()
+                    .fill(item.color)
+                    .cornerRadius(8)
+                    .frame(height: 52)
+                    .padding(.horizontal)
+                
+                Text("Navigate")
+                    .font(.headline)
+                    .foregroundColor(.white)
+            }
+        }
+    }
+    
+    func openTwitter() {
+        guard let url = URL(string: "https://twitter.com/smartvipere75") else {
+            return
+        }
+        UIApplication.shared.open(url, options: [:], completionHandler: nil)
+    }
+    
+    var body: some View {
+        VStack {
+            Spacer()
+            Spacer()
+        }
+    }
+}
+
+struct ContentView : View {
+    @State private var selectedIndex: Int = 0
+    
+    init() {
+        UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor: UIColor.white]
+    }
+    
+    var selectedItem: BottomBarItem {
+        items[selectedIndex]
+    }
+    
+    var body: some View {
+        NavigationView {
+            VStack {
+                //change the navbar color
+                Rectangle()
+                    .foregroundColor(selectedItem.color)
+                    .edgesIgnoringSafeArea(.top)
+                    .frame(height: 0)
+                    .navigationBarHidden(false)
+                
+                BasicView(item: selectedItem)
+                    .navigationBarTitle(Text(selectedItem.title))
+                BottomBar(selectedIndex: $selectedIndex, items: items)
+            }
+        }
+    }
+}
+
+
+
