@@ -23,11 +23,16 @@ struct Card: Identifiable {
     
     static var data: [Card] {
         [
-            Card(name:"ramdan dress", imageName:"dress", tailor:"kumas", bio:"long red dress for ramdan"),
+            Card(name:"long white blouse", imageName:"white shirt", tailor:"bershka", bio:"long blouse"),
             Card(name:"wedding dress", imageName:"green dress", tailor:"tedbaker", bio:"midi green dress"),
             Card(name: "eid dress", imageName: "miu", tailor:"miu miu", bio:"white dress"),
-            Card(name:"eid dress", imageName:"miu miu", tailor:"miu miu", bio:"black dress"),
-          Card(name:"ramdan dress", imageName:"ramdan dress", tailor:"kumas", bio:"long green dress for ramdan")
+            Card(name:"summer white", imageName:"summer white", tailor:"miu miu", bio:"black dress"),
+          Card(name:"sun flower dress", imageName:"sun flowers dress", tailor:"polo", bio:"mini sport dress"),
+            Card(name:"strap dress", imageName:"strap", tailor:"gukki", bio:"mini dress"),
+            Card(name:"pink summer dress", imageName:"pink summer dress", tailor:"tedbaker", bio:"long black dress"),
+            Card(name: "light green dress", imageName: "light green dress", tailor:"miu miu", bio:"white top"),
+            Card(name:"strapless", imageName:"strapless", tailor:"miu miu", bio:"black&white dress"),
+          Card(name:"green silk dress", imageName:"green silk dress", tailor:"miju", bio:"long pattern dress")
         ]
     }
     

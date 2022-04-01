@@ -46,7 +46,7 @@ struct CardView: View {
             
             .padding(.bottom,200)
             .padding()
-            .foregroundColor(.white)
+            .foregroundColor(.black)
             
             HStack {
                 Image("yes")
