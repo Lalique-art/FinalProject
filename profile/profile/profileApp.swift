@@ -1,19 +1,17 @@
 //
-//  SeaSellApp.swift
-//  maryam final project
+//  profileApp.swift
+//  profile
 //
 //  Created by lolo lolo on 01/04/2022.
 //
 
-
 import SwiftUI
 
 @main
-struct SeaSellApp: App {
+struct profileApp: App {
     var body: some Scene {
         WindowGroup {
-            CustomTabView()
+            ContentView()
         }
     }
 }
-

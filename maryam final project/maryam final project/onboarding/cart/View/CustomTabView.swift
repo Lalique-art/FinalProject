@@ -13,7 +13,7 @@ struct CustomTabView: View {
         ZStack(alignment: Alignment(horizontal: .center, vertical: .bottom)) {
 
             TabView(selection: $selectedTab) {
-                ContentView()
+               MainView()
                     .tag("house")
                 CartView()
                     .tag("cart.fill")
