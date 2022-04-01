@@ -20,18 +20,31 @@ struct CardView: View {
                 .clipped()
                 
             
-            // Linear Gradient
-//            LinearGradient(gradient: cardGradient, startPoint: .top, endPoint: .bottom)
+       
             VStack {
+                
                 Spacer()
-                VStack(alignment: .leading){
-                    HStack {
-                        Text(card.name).font(.largeTitle).fontWeight(.bold)
-                        Text(String(card.tailor)).font(.title)
+                HStack {
+                    VStack(alignment: .leading){
+                        HStack {
+                           
+                            Text(card.name).font(.largeTitle).fontWeight(.bold)
+                            Text(String(card.tailor))
+                            
+                        }
+                        Text(card.bio).font(.body)
+                           
                     }
-                    Text(card.bio).font(.body)
-                }
+                    Spacer()
+                    
+                } .padding(5)
+                
+                
+            
+                  
             }
+            
+            .padding(.bottom,200)
             .padding()
             .foregroundColor(.white)
             

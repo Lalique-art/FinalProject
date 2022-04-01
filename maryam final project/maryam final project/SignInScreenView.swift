@@ -9,7 +9,12 @@ import SwiftUI
 
 struct SignInScreenView: View {
     @State private var email:String = "" //
+    @State var isSign = false
     var body: some View {
+        if isSign {
+            CustomTabView()
+        }else {
+            
         ZStack{
             Color("bg color").edgesIgnoringSafeArea(.all)
             
@@ -34,7 +39,11 @@ struct SignInScreenView: View {
                         .cornerRadius(50.0)
                         .shadow(color: Color.black.opacity(0.08), radius: 60, x: 0.0, y: 16)
                         .padding(.vertical)
+                    
                     PrimaryButton(title:"email me a sign up link")
+                        .onTapGesture {
+                            isSign = true
+                        }
                 }
                 Spacer()
                 Divider()
@@ -45,6 +54,7 @@ struct SignInScreenView: View {
                 Spacer()
                 
             } .padding()
+        }
         }
     }
 }

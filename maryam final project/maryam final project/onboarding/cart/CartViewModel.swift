@@ -10,11 +10,11 @@ import SwiftUI
 
 class CartViewModel: ObservableObject {
     @Published var items = [
-        Item(name: "Peace Skull Shirt", details: "Gray - L", image: "p1", price: 20.99, quantity: 1, offset: 0, isSwiped: false),
-        Item(name: "Myrtle Beach Sweater", details: "White - M", image: "p2", price: 25.99, quantity: 2, offset: 0, isSwiped: false),
-        Item(name: "Eywa Hoodie", details: "White - L", image: "p3", price: 22.99, quantity: 1, offset: 0, isSwiped: false),
-        Item(name: "Russ Shirt", details: "Light Red - L", image: "p4", price: 15.20, quantity: 1, offset: 0, isSwiped: false),
-        Item(name: "Comfort Jacket", details: "Black - M", image: "p5", price: 29.99, quantity: 1, offset: 0, isSwiped: false)
+        Item(name: "red dress", details: "red - m,s", image: "dress", price: 70, quantity: 1, offset: 0, isSwiped: false),
+        Item(name: "miu miu dress", details: "black - M", image: "miu miu", price: 400, quantity: 1, offset: 0, isSwiped: false),
+        Item(name: "Ted baker Green dress", details: "green - s", image: "green dress", price: 90, quantity: 1, offset: 0, isSwiped: false),
+        Item(name: "miu miu white dress", details: "white - m", image: "miu", price: 200.20, quantity: 1, offset: 0, isSwiped: false),
+        Item(name: "ramdan green dress", details: "Green - M", image: "ramdan dress", price: 70, quantity: 1, offset: 0, isSwiped: false)
     ]
 }
 

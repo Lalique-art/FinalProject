@@ -11,7 +11,8 @@ struct MainView: View {
     var body: some View {
         VStack(alignment: .leading) {
             HStack {
-                Text("my tailor")
+               
+                Text("  my tailor")
                     .font(.title2)
                     .fontWeight(.bold)
                 Spacer()
@@ -40,7 +41,7 @@ struct MainView: View {
 //                .foregroundColor(Color("purple"))
             }
 //            .padding(.trailing)
-            Text("make your outfit today")
+            Text(" make your outfit today")
                 .font(.title3)
             
             ScrollView (.horizontal, showsIndicators: false) {

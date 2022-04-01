@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
 @State var done = false
+    
     var body: some View {
         
         if done{
