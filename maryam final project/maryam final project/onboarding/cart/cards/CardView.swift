@@ -92,6 +92,10 @@ struct CardView: View {
                             card.x = 0; card.y = 0
                         }
                     }
+                    if card.x > 0 {
+                        likedCards.append(card)
+                        print(likedCards)
+                    }
                 }
         )
     }

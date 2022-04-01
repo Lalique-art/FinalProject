@@ -9,7 +9,20 @@ import SwiftUI
 
 struct checkout: View {
     var body: some View {
-        Text("checkout")
+        List(likedCards) { i in
+            HStack{
+                Image(i.imageName)
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 100, height: 100)
+                Text(i.name)
+                    .font(.title)
+                    .fontWeight(.semibold)
+                    
+            }
+            
+        }
+        
     }
 }
 

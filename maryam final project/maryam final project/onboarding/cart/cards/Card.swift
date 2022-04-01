@@ -32,4 +32,6 @@ struct Card: Identifiable {
     }
     
 }
+var likedCards : [Card] = []
+    
 

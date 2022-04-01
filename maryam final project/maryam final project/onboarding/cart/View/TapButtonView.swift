@@ -13,7 +13,7 @@ struct TabButtonView: View {
     var body: some View {
         Button(action: {selectedTab = image}) {
             Image(systemName: image)
-                .foregroundColor(selectedTab == image ? Color("baby") : .white)
+                .foregroundColor(selectedTab == image ? Color("baby blue") : .white)
                 .padding()
                 .font(Font.title2.weight(.bold))
         }
