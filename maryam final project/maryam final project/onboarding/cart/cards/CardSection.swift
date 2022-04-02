@@ -10,10 +10,11 @@
 import SwiftUI
 
 struct CardsSection: View {
+    @StateObject var cartManager: CartManager
     var body: some View {
         ZStack{
             ForEach(Card.data.reversed()) { card in
-                CardView(card: card)
+                CardView(card: card,cartManager: cartManager)
             }
         }
         .padding(8)
@@ -22,8 +23,8 @@ struct CardsSection: View {
     }
 }
 
-struct CardsSection_Previews: PreviewProvider {
-    static var previews: some View {
-        CardsSection()
-    }
-}
+//struct CardsSection_Previews: PreviewProvider {
+//    static var previews: some View {
+//        CardsSection()
+//    }
+//}

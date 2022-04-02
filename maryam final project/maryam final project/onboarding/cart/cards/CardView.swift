@@ -9,6 +9,7 @@ import SwiftUI
 
 struct CardView: View {
     @State var card: Card
+    @StateObject var cartManager: CartManager
     // MARK: - Drawing Constant
 //    let cardGradient = Gradient(colors: [Color.black.opacity(0.0), Color.black.opacity(0.5)])
     
@@ -94,6 +95,9 @@ struct CardView: View {
                     }
                     if card.x > 0 {
                         likedCards.append(card)
+                        cartManager.addToCart(product: Product(name: card.name, image: card.imageName, price: card.price))
+                            
+                        
                         print(likedCards)
                     }
                 }
@@ -102,10 +106,10 @@ struct CardView: View {
 }
 
 
-
-struct CardView_Previews: PreviewProvider {
-    static var previews: some View {
-        CardView(card: Card.data[0])
-            .previewLayout(.sizeThatFits)
-    }
-}
+//
+//struct CardView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        CardView(card: Card.data[0])
+//            .previewLayout(.sizeThatFits)
+//    }
+//}

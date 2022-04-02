@@ -15,8 +15,8 @@ struct StoreFabric: View {
             ScrollView {
                 LazyVGrid(columns: columns, spacing: 20) {
                     ForEach(productList, id:\.id) { product in
-                        ProductCard(product: product)
-                            .environmentObject(cartManager)
+                        ProductCard(cartManager: cartManager, product: product)
+                           
                     }
                 }
                 .padding()
