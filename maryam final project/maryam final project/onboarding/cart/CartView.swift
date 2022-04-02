@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct CartView: View {
+//    @EnviromentObject var cartManager: CartManager
     @StateObject var cartData = CartViewModel()
     var body: some View {
         VStack {
@@ -18,11 +19,11 @@ struct CartView: View {
                         .foregroundColor(.black)
                 }
                 
-                Text("My cart")
-                    .font(.title)
-                    .fontWeight(.heavy)
-                
-                Spacer()
+//                Text("My cart")
+//                    .font(.title)
+//                    .fontWeight(.heavy)
+//
+//                Spacer()
             }
             .padding()
             

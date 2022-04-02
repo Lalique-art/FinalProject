@@ -14,10 +14,14 @@ struct Product: Identifiable {
     var price: Int
 }
 var productList = [Product(name: "cotton", image: "product01", price: 5),
-                   Product(name: "cotton", image: "product02", price: 5),
-                   Product(name: "cotton", image: "product03", price: 5),
-                   Product(name: "cotton", image: "product04", price: 5),
+                   Product(name: "cotton", image: "top", price: 10),
+                   Product(name: "cotton", image: "product03", price: 20),
+                   Product(name: "cotton", image: "product04", price: 15),
                    Product(name: "cotton", image: "product05", price: 5),
-                   Product(name: "cotton", image: "product06", price: 5),
+                   Product(name: "cotton", image: "product06", price: 12),
+                   Product(name: "cotton", image: "product05", price: 5),
+                   Product(name: "cotton", image: "product06", price: 12),
+                   Product(name: "cotton", image: "product05", price: 5),
+                   Product(name: "cotton", image: "product06", price: 12)
 ]
  
