@@ -49,14 +49,14 @@ struct MainView: View {
                         NavigationLink(destination:measurement()) {
                             RowView(index: "1")
                         }
-                        NavigationLink(destination:store_fabric()) {
+                        NavigationLink(destination:StoreFabric()) {
                             RowView(index: "2")
                         }
                         NavigationLink(destination:soon()) {
                             RowView(index: "3")
                         }
                     }
-                    //                    }
+                 
                 }
                 .padding(.top, 20)
                 .frame(height: 300)
@@ -65,13 +65,14 @@ struct MainView: View {
                         NavigationLink(destination:measurement()) {
                             RowView(index: "1")
                         }
-                        NavigationLink(destination:store_fabric()) {
+                        NavigationLink(destination:StoreFabric()) {
                             RowView(index: "2")
                         }
                         NavigationLink(destination:soon()) {
                             RowView(index: "3")
                         }
                     }
+                   
                     //                    }
                 }
                 .padding(.top, 20)
