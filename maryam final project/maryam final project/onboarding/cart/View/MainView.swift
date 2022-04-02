@@ -62,7 +62,7 @@ struct MainView: View {
                 .frame(height: 300)
                 ScrollView (.horizontal, showsIndicators: false) {
                     LazyHStack {
-                        NavigationLink(destination:measurement()) {
+                        NavigationLink(destination:Trends()) {
                             RowView(index: "1")
                         }
                         NavigationLink(destination:StoreFabric()) {

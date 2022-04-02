@@ -1,6 +1,5 @@
 import SwiftUI
 struct WelcomeScreenView: View {
-    @StateObject var cartManager = CartManager()
     var body: some View {
         NavigationView {
             ZStack{
@@ -13,7 +12,7 @@ struct WelcomeScreenView: View {
                 PrimaryButton(title:"Get Started")
                 
                 
-                NavigationLink(destination:SignInScreenView(cartManager: cartManager).navigationBarHidden(true),label: {
+                NavigationLink(destination:SignInScreenView().navigationBarHidden(true),label: {
                     Text("Sign in")
                         .font(.title3)
                         .fontWeight(.bold)
@@ -40,11 +39,11 @@ struct WelcomeScreenView: View {
 }
 }
 
-//
-//
-//struct WelcomeScreenView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        WelcomeScreenView()
-//    }
-//}
-//
+
+
+struct WelcomeScreenView_Previews: PreviewProvider {
+    static var previews: some View {
+        WelcomeScreenView()
+    }
+}
+

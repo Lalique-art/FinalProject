@@ -8,12 +8,11 @@
 import SwiftUI
 
 struct SignInScreenView: View {
-    @StateObject var cartManager: CartManager
     @State private var email:String = "" //
     @State var isSign = false
     var body: some View {
         if isSign {
-            CustomTabView(cartManager: cartManager)
+            CustomTabView()
         }else {
             
         ZStack{
@@ -60,10 +59,10 @@ struct SignInScreenView: View {
     }
 }
 
-//
-//struct SignInScreenView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        SignInScreenView()
-//    }
-//}
-//
+
+struct SignInScreenView_Previews: PreviewProvider {
+    static var previews: some View {
+        SignInScreenView()
+    }
+}
+

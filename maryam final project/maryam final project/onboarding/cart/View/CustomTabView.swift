@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct CustomTabView: View {
-    @StateObject var cartManager: CartManager
     @State var selectedTab = "person.crop.circle"
     var body: some View {
         ZStack(alignment: Alignment(horizontal: .center, vertical: .bottom)) {
@@ -18,7 +17,7 @@ struct CustomTabView: View {
                     .tag("house")
                 CartView()
                     .tag("cart.fill")
-                CardsSection(cartManager: cartManager)
+             CardsSection()
                     .tag("shuffle")
                 checkout()
                     .tag("heart.fill")
@@ -55,11 +54,11 @@ struct CustomTabView: View {
 }
 
 var tabs = ["person.crop.circle", "heart.fill", "house", "shuffle", "cart.fill"]
-//
-//struct BottomTabBarView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        CustomTabView(cartManager: <#CartManager#>)
-//    }
-//}
+
+struct BottomTabBarView_Previews: PreviewProvider {
+    static var previews: some View {
+        CustomTabView()
+    }
+}
 
         
