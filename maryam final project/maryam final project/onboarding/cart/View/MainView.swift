@@ -42,8 +42,8 @@ struct MainView: View {
     //                .foregroundColor(Color("purple"))
                 }
     //            .padding(.trailing)
-                Text(" make your outfit today")
-                    .font(.title3)
+//                Text(" make your outfit today")
+//                    .font(.title3)
                 ScrollView (.horizontal, showsIndicators: false) {
                     LazyHStack {
                         NavigationLink(destination:measurement()) {
@@ -62,7 +62,7 @@ struct MainView: View {
                 .frame(height: 300)
                 ScrollView (.horizontal, showsIndicators: false) {
                     LazyHStack {
-                        NavigationLink(destination:Trends()) {
+                        NavigationLink(destination:tailorStore()) {
                             RowView(index: "1")
                         }
                         NavigationLink(destination:StoreFabric()) {
@@ -77,10 +77,25 @@ struct MainView: View {
                 }
                 .padding(.top, 20)
                 .frame(height: 300)
-
+                
+                ScrollView (.horizontal, showsIndicators: false) {
+                    LazyHStack {
+                        NavigationLink(destination:Trends()) {
+                            RowView(index: "1")
+                        }
+                        NavigationLink(destination:StoreFabric()) {
+                            RowView(index: "2")
+                        }
+                        NavigationLink(destination:soon()) {
+                            RowView(index: "3")
+                        }
+                    }
+                   
+                    //                    }
+                }
                
 
-                Spacer(minLength: 0)
+                Spacer(minLength: 100)
                
             }
         }
