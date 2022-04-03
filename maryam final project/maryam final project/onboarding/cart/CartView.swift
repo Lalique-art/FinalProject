@@ -14,9 +14,9 @@ struct CartView: View {
         VStack {
             HStack(spacing: 20) {
                 Button(action: {}) {
-                    Image(systemName: "chevron.left")
-                        .font(.system(size: 26, weight: .heavy))
-                        .foregroundColor(.black)
+//                    Image(systemName: "chevron.left")
+//                        .font(.system(size: 26, weight: .heavy))
+//                        .foregroundColor(.black)
                 }
                 
 //                Text("My cart")
