@@ -9,8 +9,16 @@ import SwiftUI
 
 struct soon: View {
     var body: some View {
-        Text("very soon")
+        ZStack {
+            Text("Very Soon contact with your tailor any time!")
+            padding(.bottom)
+        
+      Image("6")
+            .resizable()
+            .frame(width: 400, height: 350)
+            .scaledToFit()
     }
+}
 }
 
 struct soon_Previews: PreviewProvider {

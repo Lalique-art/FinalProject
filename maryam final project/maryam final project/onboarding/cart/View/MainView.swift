@@ -42,34 +42,43 @@ struct MainView: View {
     //                .foregroundColor(Color("purple"))
                 }
     //            .padding(.trailing)
-//                Text(" make your outfit today")
-//                    .font(.title3)
+                Text("  tailors and fabric")
+                    .font(.headline)
+                    
                 ScrollView (.horizontal, showsIndicators: false) {
                     LazyHStack {
-                        NavigationLink(destination:measurement()) {
-                            RowView(index: "1")
+                        NavigationLink(destination:tailorStore()) {
+                            RowView(index: "5")
+                                .scaledToFit()
                         }
                         NavigationLink(destination:StoreFabric()) {
-                            RowView(index: "2")
+                            RowView(index: "1")
+                                .scaledToFit()
                         }
                         NavigationLink(destination:soon()) {
-                            RowView(index: "3")
+                            RowView(index: "6")
+                                .scaledToFit()
                         }
                     }
                  
                 }
                 .padding(.top, 20)
                 .frame(height: 300)
+                Text(" Hot new !")
+                    .font(.headline)
                 ScrollView (.horizontal, showsIndicators: false) {
                     LazyHStack {
-                        NavigationLink(destination:tailorStore()) {
-                            RowView(index: "1")
+                        NavigationLink(destination:measurement()) {
+                            RowView(index: "2")
+                                .scaledToFit()
                         }
                         NavigationLink(destination:StoreFabric()) {
                             RowView(index: "2")
+                                .scaledToFit()
                         }
                         NavigationLink(destination:soon()) {
                             RowView(index: "3")
+                                .scaledToFit()
                         }
                     }
                    
@@ -77,17 +86,21 @@ struct MainView: View {
                 }
                 .padding(.top, 20)
                 .frame(height: 300)
-                
+                Text("  The latest trends")
+                    .font(.headline)
                 ScrollView (.horizontal, showsIndicators: false) {
                     LazyHStack {
                         NavigationLink(destination:Trends()) {
                             RowView(index: "1")
+                                .scaledToFit()
                         }
                         NavigationLink(destination:StoreFabric()) {
                             RowView(index: "2")
+                                .scaledToFit()
                         }
                         NavigationLink(destination:soon()) {
                             RowView(index: "3")
+                                .scaledToFit()
                         }
                     }
                    
