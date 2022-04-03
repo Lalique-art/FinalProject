@@ -13,7 +13,7 @@ struct ProductCard2: View {
     var body: some View {
         ZStack(alignment: .topTrailing) {
             ZStack(alignment: .bottom) {
-            Image("product01")
+                Image(tailor.image)
                     .resizable()
                     .cornerRadius(20)
                     .frame(width: 180)

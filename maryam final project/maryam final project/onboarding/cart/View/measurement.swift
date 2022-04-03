@@ -23,18 +23,19 @@ struct measurement: View {
             .frame(width: 400, height: 600)
             .clipShape(RoundedRectangle(cornerRadius: 20))
         ZStack{
+          
            Color("Intro3")
                 .edgesIgnoringSafeArea(.all)
             VStack{
                Spacer()
-                    .padding(50)
+                    .padding(85)
                 Text("body measurements ")
                     .bold()
                     .foregroundColor(Color("pink2"))
                     .font(.largeTitle)
-                  
-                    Spacer()
-                    .padding()
+//
+//                    Spacer()
+//                    .padding()
                 Image(name)
                     .resizable()
                     .scaledToFit()
@@ -73,8 +74,8 @@ struct measurement: View {
                     .background(Color("pink2"))
                     .clipShape(RoundedRectangle(cornerRadius: 35))
                 Spacer()
-                    .padding(50)
-                
+                    .padding(100)
+
 //                Text(shape)
 //                foregroundColor(Color("pink"))
                     .onTapGesture {

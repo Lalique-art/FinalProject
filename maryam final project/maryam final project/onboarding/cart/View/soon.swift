@@ -9,14 +9,13 @@ import SwiftUI
 
 struct soon: View {
     var body: some View {
-        ZStack {
-            Text("Very Soon contact with your tailor any time!")
-            padding(.bottom)
-        
-      Image("6")
-            .resizable()
-            .frame(width: 400, height: 350)
-            .scaledToFit()
+        ZStack{
+        Text("Very Soon contact with your tailor any time! 🌟")
+            .font(.headline)
+            .frame(width: 400, height: 500, alignment: .top)
+        Image("6")
+                .resizable()
+                .frame(width: 400, height: 450, alignment: .bottom)
     }
 }
 }

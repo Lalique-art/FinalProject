@@ -178,7 +178,7 @@ struct Card4: View {
             .offset(y: 8)
             
             VStack {
-                Image("Sushi1")
+                Image("")
                     .resizable()
                     .frame(width: 50, height: 50)
                 Text("Dresses")
