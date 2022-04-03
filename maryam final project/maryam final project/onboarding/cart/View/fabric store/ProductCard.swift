@@ -14,7 +14,7 @@ struct ProductCard: View {
     var body: some View {
         ZStack(alignment: .topTrailing) {
             ZStack(alignment: .bottom) {
-            Image("product01")
+                Image(product.image)
                     .resizable()
                     .cornerRadius(20)
                     .frame(width: 180)

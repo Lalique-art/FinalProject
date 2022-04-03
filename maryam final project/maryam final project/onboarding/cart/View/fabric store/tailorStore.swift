@@ -15,7 +15,7 @@ struct tailorStore: View {
             ScrollView {
                 LazyVGrid(columns: columns, spacing: 20) {
                     ForEach(tailorList, id:\.id) { Tailor in
-                        ProductCard2(cartManager2: cartManager2, Tailor: Tailor)
+                        ProductCard2(cartManager2: cartManager2, tailor: Tailor)
                            
                     }
                 }

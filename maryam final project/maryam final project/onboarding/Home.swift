@@ -58,6 +58,7 @@ struct Home: View {
             .padding(.horizontal)
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottom)
         }
+        .navigationBarHidden(true)
         .overlay(
             
             Button(action: {

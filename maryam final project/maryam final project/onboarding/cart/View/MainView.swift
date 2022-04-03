@@ -93,7 +93,8 @@ struct MainView: View {
                    
                     //                    }
                 }
-               
+                .padding(.top, 20)
+                .frame(height: 300)
 
                 Spacer(minLength: 100)
                
