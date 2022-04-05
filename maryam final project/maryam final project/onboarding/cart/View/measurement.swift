@@ -18,14 +18,14 @@ struct measurement: View {
     @State var advice = ""
     @State var gender = ""
     var body: some View {
+       
+            
         ZStack{
-     Image("pink")
-            .resizable()
-            .frame(width: 400, height: 600)
-            .clipShape(RoundedRectangle(cornerRadius: 20))
-            .scaledToFit()
-        ZStack{
-           Color("Intro3")
+            Image("so pink")
+                   .resizable()
+                   .frame(width: 400, height: 600)
+                   .clipShape(RoundedRectangle(cornerRadius: 20))
+                   .scaledToFit()
                 .edgesIgnoringSafeArea(.all)
             VStack{
                 Picker("what is you gender?",selection:$gender){
@@ -102,7 +102,7 @@ struct measurement: View {
         }
     }
 }
-}
+
 
 
 struct measurement_Previews: PreviewProvider {

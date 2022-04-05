@@ -75,7 +75,9 @@ struct CardView: View {
                         // MARK: - BUG 5
                         card.y = value.translation.height
                         card.degree = 7 * (value.translation.width > 0 ? 1 : -1)
+                      
                     }
+                    
                 }
                 .onEnded { (value) in
                     withAnimation(.interpolatingSpring(mass: 1.0, stiffness: 50, damping: 8, initialVelocity: 0)) {
@@ -91,11 +93,12 @@ struct CardView: View {
                         default:
                             card.x = 0; card.y = 0
                         }
+                        if card.x > 0 {
+                            likedCards.append(card)
+                            print(likedCards)
+                        }
                     }
-                    if card.x > 0 {
-                        likedCards.append(card)
-                        print(likedCards)
-                    }
+                  
                 }
         )
     }
