@@ -31,6 +31,9 @@
 		FFC4F22D27F8A3E4008F548E /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC4F22C27F8A3E4008F548E /* ProductCard.swift */; };
 		FFC4F22F27F8ABFF008F548E /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC4F22E27F8ABFF008F548E /* CartButton.swift */; };
 		FFC4F23127F8B22A008F548E /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC4F23027F8B22A008F548E /* CartManager.swift */; };
+		FFC6D04127FC72EB0047FB6B /* TextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC6D04027FC72EB0047FB6B /* TextButton.swift */; };
+		FFC6D04327FC770C0047FB6B /* FashionAdvice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC6D04227FC770C0047FB6B /* FashionAdvice.swift */; };
+		FFC6D04527FC7AD10047FB6B /* ModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC6D04427FC7AD10047FB6B /* ModelView.swift */; };
 		FFD188EC27F7300B00F1F97C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD188EB27F7300B00F1F97C /* MainView.swift */; };
 		FFE1E50227F63F17008F4B31 /* WelcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE1E50127F63F17008F4B31 /* WelcomeScreenView.swift */; };
 		FFE1E50427F63F5D008F4B31 /* SignInScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE1E50327F63F5D008F4B31 /* SignInScreenView.swift */; };
@@ -68,6 +71,9 @@
 		FFC4F22C27F8A3E4008F548E /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
 		FFC4F22E27F8ABFF008F548E /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
 		FFC4F23027F8B22A008F548E /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		FFC6D04027FC72EB0047FB6B /* TextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextButton.swift; sourceTree = "<group>"; };
+		FFC6D04227FC770C0047FB6B /* FashionAdvice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FashionAdvice.swift; sourceTree = "<group>"; };
+		FFC6D04427FC7AD10047FB6B /* ModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelView.swift; sourceTree = "<group>"; };
 		FFD188EB27F7300B00F1F97C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		FFE1E50127F63F17008F4B31 /* WelcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenView.swift; sourceTree = "<group>"; };
 		FFE1E50327F63F5D008F4B31 /* SignInScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreenView.swift; sourceTree = "<group>"; };
@@ -113,6 +119,8 @@
 				FF2F1B8927F6593A003716C6 /* CustomTabView.swift */,
 				FFBDF56127F8FC0800B71936 /* Trends.swift */,
 				FFB3763E27F87A9100E44AD7 /* soon.swift */,
+				FFC6D04227FC770C0047FB6B /* FashionAdvice.swift */,
+				FFC6D04427FC7AD10047FB6B /* ModelView.swift */,
 				FFB3764027F881A400E44AD7 /* fabric store */,
 			);
 			path = View;
@@ -143,6 +151,7 @@
 				FFC1E74627F9D5EE00C2A85B /* tailorStore.swift */,
 				FFC1E75327F9DBC200C2A85B /* tailor.swift */,
 				FFC1E74B27F9D6E900C2A85B /* ProductCard2.swift */,
+				FFC6D04027FC72EB0047FB6B /* TextButton.swift */,
 				FFC1E74F27F9D75100C2A85B /* CartButton2.swift */,
 				FFC1E75127F9D77C00C2A85B /* CartManager2.swift */,
 			);
@@ -275,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFC6D04127FC72EB0047FB6B /* TextButton.swift in Sources */,
 				FFC1E74C27F9D6E900C2A85B /* ProductCard2.swift in Sources */,
 				FFE1E50627F63F93008F4B31 /* COLORS.swift in Sources */,
 				FFC4F23127F8B22A008F548E /* CartManager.swift in Sources */,
@@ -293,6 +303,7 @@
 				FFB3763F27F87A9100E44AD7 /* soon.swift in Sources */,
 				FF2F1B7F27F6587A003716C6 /* CardView.swift in Sources */,
 				FFB3766227F89CB100E44AD7 /* Product.swift in Sources */,
+				FFC6D04527FC7AD10047FB6B /* ModelView.swift in Sources */,
 				FFC1E75427F9DBC200C2A85B /* tailor.swift in Sources */,
 				FFFDDABD27F637270048C033 /* ContentView.swift in Sources */,
 				FFFDDABB27F637270048C033 /* maryam_final_projectApp.swift in Sources */,
@@ -304,6 +315,7 @@
 				FF2F1B8A27F6593A003716C6 /* CustomTabView.swift in Sources */,
 				FF2F1B7B27F65847003716C6 /* Card.swift in Sources */,
 				FF2F1B9527F662FF003716C6 /* CartView.swift in Sources */,
+				FFC6D04327FC770C0047FB6B /* FashionAdvice.swift in Sources */,
 				FF2F1B8427F658E3003716C6 /* checkout.swift in Sources */,
 				FFC4F22D27F8A3E4008F548E /* ProductCard.swift in Sources */,
 				FFC4F22F27F8ABFF008F548E /* CartButton.swift in Sources */,

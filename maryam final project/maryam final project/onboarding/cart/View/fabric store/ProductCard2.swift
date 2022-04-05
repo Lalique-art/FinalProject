@@ -45,6 +45,7 @@ struct ProductCard2: View {
                     .cornerRadius(50)
                     .padding()
             }
+            
         }
     }
 }

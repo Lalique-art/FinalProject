@@ -16,26 +16,26 @@ struct measurement: View {
     @State var bust = ""
     @State var shape = "what's my body type"
     @State var advice = ""
+    @State var gender = ""
     var body: some View {
         ZStack{
-     Image("pink2")
+     Image("pink")
             .resizable()
             .frame(width: 400, height: 600)
             .clipShape(RoundedRectangle(cornerRadius: 20))
+            .scaledToFit()
         ZStack{
-          
            Color("Intro3")
                 .edgesIgnoringSafeArea(.all)
             VStack{
-               Spacer()
-                    .padding(85)
-                Text("body measurements ")
-                    .bold()
-                    .foregroundColor(Color("pink2"))
-                    .font(.largeTitle)
-//
-//                    Spacer()
-//                    .padding()
+                Picker("what is you gender?",selection:$gender){
+                    Text("female").tag(0)
+                    Text("male").tag(0)
+                    
+                }
+                .pickerStyle(.segmented)
+                .padding()
+               
                 Image(name)
                     .resizable()
                     .scaledToFit()
@@ -71,11 +71,9 @@ struct measurement: View {
                 Text(shape)
                     .foregroundColor(.white)
                     .frame(width: 400, height: 60)
-                    .background(Color("pink2"))
+                    .background(Color("pink"))
                     .clipShape(RoundedRectangle(cornerRadius: 35))
-                Spacer()
-                    .padding(100)
-
+                
 //                Text(shape)
 //                foregroundColor(Color("pink"))
                     .onTapGesture {
@@ -105,8 +103,6 @@ struct measurement: View {
     }
 }
 }
-
-
 
 
 struct measurement_Previews: PreviewProvider {

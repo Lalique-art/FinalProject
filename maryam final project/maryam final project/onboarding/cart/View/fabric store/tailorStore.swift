@@ -16,6 +16,7 @@ struct tailorStore: View {
                 LazyVGrid(columns: columns, spacing: 20) {
                     ForEach(tailorList, id:\.id) { Tailor in
                         ProductCard2(cartManager2: cartManager2, tailor: Tailor)
+                         
                            
                     }
                 }
@@ -29,6 +30,17 @@ struct tailorStore: View {
                     .environmentObject(cartManager2)
             } label: {
                 CartButton(numberOfProducts: cartManager2.tailors.count)
+            }
+          
+        }
+        .navigationViewStyle(StackNavigationViewStyle())
+        .navigationTitle(Text("tailor shop"))
+        .toolbar {
+            NavigationLink{
+                soon()
+                    .environmentObject(cartManager2)
+            } label: {
+                TextButton(numberOfProducts: cartManager2.tailors.count)
             }
           
         }

@@ -94,7 +94,7 @@ struct MainView: View {
                             RowView(index: "1")
                                 .scaledToFit()
                         }
-                        NavigationLink(destination:StoreFabric()) {
+                        NavigationLink(destination:FashionAdvice()) {
                             RowView(index: "2")
                                 .scaledToFit()
                         }
