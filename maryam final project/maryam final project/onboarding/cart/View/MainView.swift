@@ -72,12 +72,12 @@ struct MainView: View {
                             RowView(index: "2")
                                 .scaledToFit()
                         }
-                        NavigationLink(destination:StoreFabric()) {
-                            RowView(index: "2")
+                        NavigationLink(destination:future()) {
+                            RowView(index: "soon")
                                 .scaledToFit()
                         }
-                        NavigationLink(destination:soon()) {
-                            RowView(index: "3")
+                        NavigationLink(destination:plans()) {
+                            RowView(index: "soon")
                                 .scaledToFit()
                         }
                     }
@@ -95,11 +95,11 @@ struct MainView: View {
                                 .scaledToFit()
                         }
                         NavigationLink(destination:FashionAdvice()) {
-                            RowView(index: "2")
+                            RowView(index: "4")
                                 .scaledToFit()
                         }
-                        NavigationLink(destination:soon()) {
-                            RowView(index: "3")
+                        NavigationLink(destination:very_soon()) {
+                            RowView(index: "soon")
                                 .scaledToFit()
                         }
                     }

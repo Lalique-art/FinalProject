@@ -23,7 +23,7 @@ struct tailorStore: View {
                 .padding()
             }
         }
-        .navigationTitle(Text("fabric shop"))
+        .navigationTitle(Text("tailor shop"))
         .toolbar {
             NavigationLink{
                 CartView()

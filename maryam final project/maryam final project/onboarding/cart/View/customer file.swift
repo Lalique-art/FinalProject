@@ -14,7 +14,7 @@ struct customer_file: View {
       
         VStack(spacing:40){
           
-            Text("Welcome Back\(username)!")
+            Text("Welcome Back \(username)!")
                 .font(.system(.title, design: .rounded))
                 .fontWeight(.medium)
                 .foregroundColor(Color(red: 0.167, green: 0.152, blue: 0.229))

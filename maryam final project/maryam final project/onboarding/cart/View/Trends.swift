@@ -50,7 +50,7 @@ struct Trends_Previews: PreviewProvider {
 struct Header: View {
     var body: some View {
         HStack {
-            Text("Discover")
+            Text("Design!")
                 .font(.system(size: 44, weight: .bold, design: .rounded))
                 .padding(.leading, 30)
             Spacer()
@@ -102,19 +102,19 @@ struct Categories: View {
 struct Card1: View {
     var body: some View {
         ZStack {
-            Image("Mountain1")
+            Image("mani")
                 .resizable()
                 .frame(width: 250, height: 350)
                 .cornerRadius(20)
             
             VStack(alignment: .leading) {
-                Text("Mount Fuji")
-                    .foregroundColor(Color.white)
-                    .font(.system(size: 22, weight: .bold, design: .rounded))
-                Text("Fujinomiya, Japan")
-                    .foregroundColor(Color.white)
-                    .font(.system(size: 16, weight: .medium, design: .rounded))
-                    .padding(.top, 5)
+//                Text("try")
+//                    .foregroundColor(Color.black)
+//                    .font(.system(size: 22, weight: .bold, design: .rounded))
+//                Text(".")
+//                    .foregroundColor(Color.white)
+//                    .font(.system(size: 16, weight: .medium, design: .rounded))
+//                    .padding(.top, 5)
             }
             .offset(x: -20, y: 110)
         }
@@ -124,19 +124,19 @@ struct Card1: View {
 struct Card2: View {
     var body: some View {
         ZStack {
-            Image("Mountain2")
+            Image("draw")
                 .resizable()
                 .frame(width: 250, height: 350)
                 .cornerRadius(20)
             
             VStack(alignment: .leading) {
-                Text("Mount Fuji")
-                    .foregroundColor(Color.white)
-                    .font(.system(size: 22, weight: .bold, design: .rounded))
-                Text("Shibuya-ku, Japan")
-                    .foregroundColor(Color.white)
-                    .font(.system(size: 16, weight: .medium, design: .rounded))
-                    .padding(.top, 5)
+//                Text("design!")
+//                    .foregroundColor(Color.black)
+//                    .font(.system(size: 22, weight: .bold, design: .rounded))
+//                Text(".")
+//                    .foregroundColor(Color.white)
+//                    .font(.system(size: 16, weight: .medium, design: .rounded))
+//                    .padding(.top, 5)
             }
             .offset(x: -20, y: 110)
         }
@@ -146,16 +146,16 @@ struct Card2: View {
 struct Card3: View {
     var body: some View {
         ZStack {
-            Image("Mountain1")
+            Image("zipper")
                 .resizable()
                 .frame(width: 250, height: 350)
                 .cornerRadius(20)
             
             VStack(alignment: .leading) {
-                Text("Mount Fuji")
+                Text(".")
                     .foregroundColor(Color.white)
                     .font(.system(size: 22, weight: .bold, design: .rounded))
-                Text("Fujinomiya, Japan")
+                Text(".")
                     .foregroundColor(Color.white)
                     .font(.system(size: 16, weight: .medium, design: .rounded))
                     .padding(.top, 5)
@@ -178,10 +178,10 @@ struct Card4: View {
             .offset(y: 8)
             
             VStack {
-                Image("")
+                Image("zipper")
                     .resizable()
                     .frame(width: 50, height: 50)
-                Text("Dresses")
+                Text("zippers")
                     .font(.system(size: 16, weight: .bold, design: .rounded))
                     .padding(.top, 10)
             }
@@ -199,11 +199,11 @@ struct Card5: View {
             RoundedRectangle(cornerRadius: 20)
                 .stroke(Color(#colorLiteral(red: 0.888086929, green: 0.888086929, blue: 0.888086929, alpha: 1)))
             VStack {
-                Image("Roman")
+                Image("button")
                     .resizable()
                     .frame(width: 50, height: 50)
                     .cornerRadius(25)
-                Text("tops")
+                Text("buttons")
                     .font(.system(size: 16, weight: .bold, design: .rounded))
                     .padding(.top, 9)
             }
@@ -219,11 +219,11 @@ struct Card6: View {
             RoundedRectangle(cornerRadius: 20)
                 .stroke(Color(#colorLiteral(red: 0.888086929, green: 0.888086929, blue: 0.888086929, alpha: 1)))
             VStack {
-                Image("Sushi2")
+                Image("feathers")
                     .resizable()
                     .frame(width: 50, height: 50)
                     .cornerRadius(25)
-                Text("pants")
+                Text("feathers")
                     .font(.system(size: 16, weight: .bold, design: .rounded))
                     .padding(.top, 9)
             }
